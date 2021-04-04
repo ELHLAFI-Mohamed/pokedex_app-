@@ -2,18 +2,18 @@ package elhlafi.cs98.pokedex;
 
 public class Pokemon {
     private String name ;
-    private int number ;
+    private String url  ;
 
-    Pokemon(String name , int number ){
+    Pokemon(String name , String url ){
 
         this.name=name ;
-        this.number=number;
+        this.url=url;
     }
      public String getName(){
         return this.name;
      }
-     public int getNumber(){
-        return this.number;
+     public String getUrl(){
+        return this.url;
      }
 
 }
